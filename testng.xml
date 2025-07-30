@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="ActiveJobsPOMTestCases.BSRLoginTest"/>
+      <class name="ActiveJobsPOMTestCases.EmployerLoginTest"/>
+      <class name="ActiveJobsPOMTestCases.JobseekerLoginTest"/>
+      <class name="ActiveJobsPOMTestCases.EmployerRegistrationTest"/>
+      <class name="ActiveJobsPOMTestCases.JobseekerRegistrationTest"/>
+      <class name="ActiveJobsPOMTestCases.BSRRegistrationTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
