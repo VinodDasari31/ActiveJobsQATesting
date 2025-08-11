@@ -1,0 +1,6 @@
+17:28.973 [main] INFO  testcases.BSRegistrationTest - "***** Finished RegitestClass *****"
+17:33.502 [main] INFO  testcases.BSRegistrationCancelTest - ***** Starting RegitestClass *****
+17:34.049 [main] INFO  testcases.BSRegistrationCancelTest - Clicked on my Header..
+17:36.492 [main] INFO  testcases.BSRegistrationCancelTest - Clicked on My RegisterLink..
+17:36.520 [main] INFO  testcases.BSRegistrationCancelTest - providing customer Details
+17:37.904 [main] INFO  testcases.BSRegistrationCancelTest - "***** Cancelled All Given Text fields *****"

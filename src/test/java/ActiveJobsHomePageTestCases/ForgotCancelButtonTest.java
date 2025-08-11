@@ -35,7 +35,8 @@ WebDriver driver;
 		forgotCancel.TextBox("vinodd.prajosh@gmail.com");
 		forgotCancel.CancelBtn();
 		
-			}
+	}
+	
 	@AfterClass
 	void TearDown() {
 		driver.close();

@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-18T10:14:21 IST" name="Default suite" finished-at="2025-07-18T10:15:00 IST" duration-ms="39366">
+  <suite started-at="2025-08-11T09:56:57 IST" name="Default suite" finished-at="2025-08-11T09:57:04 IST" duration-ms="7566">
     <groups>
     </groups>
-    <test started-at="2025-07-18T10:14:21 IST" name="Default test" finished-at="2025-07-18T10:15:00 IST" duration-ms="39366">
-      <class name="ActiveJobsHomePage.HomePageOpen">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:ActiveJobsHomePage.HomePageOpen@441772e]" started-at="2025-07-18T10:14:21 IST" name="setUp" finished-at="2025-07-18T10:14:59 IST" duration-ms="38944" status="PASS">
+    <test started-at="2025-08-11T09:56:57 IST" name="Default test" finished-at="2025-08-11T09:57:04 IST" duration-ms="7566">
+      <class name="ActiveJobsHomePageTestCases.WTwoCheckboxTest">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:ActiveJobsHomePageTestCases.WTwoCheckboxTest@44ebcd03]" started-at="2025-08-11T09:56:57 IST" name="SetUp" finished-at="2025-08-11T09:57:03 IST" duration-ms="6588" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="PageOpen()[pri:0, instance:ActiveJobsHomePage.HomePageOpen@441772e]" started-at="2025-07-18T10:15:00 IST" name="PageOpen" finished-at="2025-07-18T10:15:00 IST" duration-ms="100" status="PASS">
+        </test-method> <!-- SetUp -->
+        <test-method signature="Checkbox()[pri:1, instance:ActiveJobsHomePageTestCases.WTwoCheckboxTest@44ebcd03]" started-at="2025-08-11T09:57:03 IST" name="Checkbox" finished-at="2025-08-11T09:57:04 IST" duration-ms="735" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- PageOpen -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:ActiveJobsHomePage.HomePageOpen@441772e]" started-at="2025-07-18T10:15:00 IST" name="TearDown" finished-at="2025-07-18T10:15:00 IST" duration-ms="256" status="PASS">
+        </test-method> <!-- Checkbox -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:ActiveJobsHomePageTestCases.WTwoCheckboxTest@44ebcd03]" started-at="2025-08-11T09:57:04 IST" name="TearDown" finished-at="2025-08-11T09:57:04 IST" duration-ms="180" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-      </class> <!-- ActiveJobsHomePage.HomePageOpen -->
+      </class> <!-- ActiveJobsHomePageTestCases.WTwoCheckboxTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

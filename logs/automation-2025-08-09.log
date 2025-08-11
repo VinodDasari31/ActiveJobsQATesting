@@ -1,0 +1,59 @@
+13:44.311 [main] INFO  testcases.BSRegistrationTest - ***** Starting RegitestClass *****
+13:44.769 [main] INFO  testcases.BSRegistrationTest - Clicked on my Header..
+13:47.921 [main] INFO  testcases.BSRegistrationTest - Clicked on My RegisterLink..
+13:48.032 [main] INFO  testcases.BSRegistrationTest - providing customer Details
+13:49.425 [main] INFO  testcases.BSRegistrationTest - "***** Finished RegitestClass *****"
+13:26.401 [main] INFO  testcases.BSRegistrationTest - ***** Starting RegitestClass *****
+13:26.821 [main] INFO  testcases.BSRegistrationTest - Clicked on my Header..
+13:30.700 [main] INFO  testcases.BSRegistrationTest - Clicked on My RegisterLink..
+13:30.834 [main] INFO  testcases.BSRegistrationTest - providing customer Details
+13:32.299 [main] INFO  testcases.BSRegistrationTest - "***** Finished RegitestClass *****"
+14:06.002 [main] INFO  testcases.BSRegistrationTest - ***** Starting RegitestClass *****
+14:06.340 [main] INFO  testcases.BSRegistrationTest - Clicked on my Header..
+14:11.987 [main] INFO  testcases.BSRegistrationTest - Clicked on My RegisterLink..
+14:12.003 [main] INFO  testcases.BSRegistrationTest - providing customer Details
+14:39.879 [main] INFO  testcases.BSRegistrationTest - ***** Starting RegitestClass *****
+14:40.310 [main] INFO  testcases.BSRegistrationTest - Clicked on my Header..
+14:40.590 [main] INFO  testcases.BSRegistrationTest - Clicked on My RegisterLink..
+14:40.605 [main] INFO  testcases.BSRegistrationTest - providing customer Details
+14:33.292 [main] INFO  testcases.BSRegistrationTest - ***** Starting RegitestClass *****
+14:33.629 [main] INFO  testcases.BSRegistrationTest - Clicked on my Header..
+14:36.897 [main] INFO  testcases.BSRegistrationTest - Clicked on My RegisterLink..
+14:36.923 [main] INFO  testcases.BSRegistrationTest - providing customer Details
+14:19.459 [main] INFO  testcases.BSRegistrationTest - ***** Starting RegitestClass *****
+14:19.834 [main] INFO  testcases.BSRegistrationTest - Clicked on my Header..
+14:22.198 [main] INFO  testcases.BSRegistrationTest - Clicked on My RegisterLink..
+14:22.217 [main] INFO  testcases.BSRegistrationTest - providing customer Details
+14:49.961 [main] INFO  testcases.BSRegistrationTest - ***** Starting RegitestClass *****
+14:50.331 [main] INFO  testcases.BSRegistrationTest - Clicked on my Header..
+14:52.407 [main] INFO  testcases.BSRegistrationTest - Clicked on My RegisterLink..
+14:52.516 [main] INFO  testcases.BSRegistrationTest - providing customer Details
+15:15.478 [main] INFO  testcases.BSRegistrationTest - ***** Starting RegitestClass *****
+15:15.918 [main] INFO  testcases.BSRegistrationTest - Clicked on my Header..
+15:09.860 [main] INFO  testcases.BSRegistrationTest - Clicked on My RegisterLink..
+15:09.881 [main] INFO  testcases.BSRegistrationTest - providing customer Details
+15:11.166 [main] INFO  testcases.BSRegistrationTest - "***** Finished RegitestClass *****"
+15:49.813 [main] INFO  testcases.BSRegistrationTest - ***** Starting RegitestClass *****
+15:50.105 [main] INFO  testcases.BSRegistrationTest - Clicked on my Header..
+15:53.075 [main] INFO  testcases.BSRegistrationTest - Clicked on My RegisterLink..
+15:53.095 [main] INFO  testcases.BSRegistrationTest - providing customer Details
+15:54.511 [main] INFO  testcases.BSRegistrationTest - "***** Finished RegitestClass *****"
+11:22.718 [main] INFO  testcases.BSRegistrationCancelTest - ***** Starting RegitestClass *****
+11:23.152 [main] INFO  testcases.BSRegistrationCancelTest - Clicked on my Header..
+11:34.764 [main] INFO  testcases.BSRegistrationCancelTest - Clicked on My RegisterLink..
+11:34.831 [main] INFO  testcases.BSRegistrationCancelTest - providing customer Details
+11:36.047 [main] INFO  testcases.BSRegistrationCancelTest - "***** Cancelled All Given Text fields *****"
+15:42.487 [main] INFO  testcases.BSRegistrationTest - ***** Starting RegitestClass *****
+15:42.960 [main] INFO  testcases.BSRegistrationTest - Clicked on my Header..
+15:45.278 [main] INFO  testcases.BSRegistrationTest - Clicked on My RegisterLink..
+15:45.295 [main] INFO  testcases.BSRegistrationTest - providing customer Details
+15:46.948 [main] INFO  testcases.BSRegistrationTest - "***** Finished RegitestClass *****"
+15:51.228 [main] INFO  testcases.BSRegistrationCancelTest - ***** Starting RegitestClass *****
+15:51.746 [main] INFO  testcases.BSRegistrationCancelTest - Clicked on my Header..
+15:53.855 [main] INFO  testcases.BSRegistrationCancelTest - Clicked on My RegisterLink..
+15:53.871 [main] INFO  testcases.BSRegistrationCancelTest - providing customer Details
+15:55.374 [main] INFO  testcases.BSRegistrationCancelTest - "***** Cancelled All Given Text fields *****"
+17:24.573 [main] INFO  testcases.BSRegistrationTest - ***** Starting RegitestClass *****
+17:25.080 [main] INFO  testcases.BSRegistrationTest - Clicked on my Header..
+17:27.586 [main] INFO  testcases.BSRegistrationTest - Clicked on My RegisterLink..
+17:27.615 [main] INFO  testcases.BSRegistrationTest - providing customer Details

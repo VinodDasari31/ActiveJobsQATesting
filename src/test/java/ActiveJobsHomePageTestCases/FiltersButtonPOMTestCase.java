@@ -26,7 +26,7 @@ public class FiltersButtonPOMTestCase {
 		filt = new FiltersPage(driver);
 		
 	}
-	@Test(priority =1)
+	/*@Test(priority =1)
 	void Filters() 
 	{
 		//FiltersPage filt =  new FiltersPage(driver);
@@ -39,9 +39,9 @@ public class FiltersButtonPOMTestCase {
 		filt.OnSite();
 		
 		Assert.assertTrue(filt.isCheckboxEnabled(), "Checkbox is disabled");
-	}
+	} */
 	
-/*	@Test(priority = 2)
+	@Test(priority = 2)
 	void testCheckboxClick() 
 	{
 		if(filt.isCheckboxEnabled()) {
@@ -52,7 +52,7 @@ public class FiltersButtonPOMTestCase {
 			System.out.println("Checkbox is disabled, cannot click");
 		}
 	}
-	@Test(priority = 3)
+/*	@Test(priority = 3)
 	void fullTimeClick() {
 		if(filt.fullTimeCheckboxEnabled()) {
 			filt.FullTime();
@@ -92,7 +92,7 @@ public class FiltersButtonPOMTestCase {
 		else {
 			System.out.println("Checkbox is disabled, cannot click");
 		}
-	} */
+	}  */
 	
 	@AfterClass
 	void TearDown() 

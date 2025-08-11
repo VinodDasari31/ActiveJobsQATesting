@@ -4,24 +4,23 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class EmployerRegistrationPage 
+import pageObjects.ConstructorPage;
+
+public class EmployerRegistrationPage extends ConstructorPage
 {
-	WebDriver driver;
+	// WebDriver driver;
 	
 	//Constructor
-	EmployerRegistrationPage(WebDriver driver)
+	public EmployerRegistrationPage(WebDriver driver)
 	{
-		this.driver = driver;
-		PageFactory.initElements(driver, this);
+		
+		super(driver);
+		//this.driver = driver;
+		//PageFactory.initElements(driver, this);
 	}
 	
 	// Locators
 	
-	@FindBy (xpath="//a[@id='Employerlogin']")
-	WebElement Header;
-	
-	@FindBy (xpath="//a[@id='empreg']")
-	WebElement Layout;
 	
 	@FindBy (xpath="//input[@id='EmpName']")
 	WebElement empName;
@@ -62,15 +61,7 @@ public class EmployerRegistrationPage
 	
 	// Action Methods
 	
-	public void EmpHeader() {
-		Header.click();
-		
-	}
 	
-	public void EmpLayout() {
-		Layout.click();
-		
-	}
 	public void EmpName(String name) {
 		empName.sendKeys(name);
 		

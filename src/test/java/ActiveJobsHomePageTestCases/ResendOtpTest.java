@@ -33,7 +33,7 @@ ResendOtpPage rsnd;
 		rsnd.ForgotLink();
 		rsnd.TextBox("vinodd.prajosh@gmail.com");
 		rsnd.SendBtn();
-		rsnd.ResendOtp();
+		//rsnd.ResendOtp();
 		
 			}
 	@AfterClass

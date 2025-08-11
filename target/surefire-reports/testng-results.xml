@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-11T09:58:05 IST" name="MasterSuite" finished-at="2025-08-11T09:59:15 IST" duration-ms="69520">
+    <groups>
+    </groups>
+    <test started-at="2025-08-11T09:58:05 IST" name="Test" finished-at="2025-08-11T09:59:15 IST" duration-ms="69520">
+      <class name="ActiveJobsHomePageTestCases.ForgotTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ActiveJobsHomePageTestCases.ForgotTest@2f67b837]" started-at="2025-08-11T09:58:22 IST" name="setUp" finished-at="2025-08-11T09:58:28 IST" duration-ms="5802" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ForgotPage()[pri:0, instance:ActiveJobsHomePageTestCases.ForgotTest@2f67b837]" started-at="2025-08-11T09:58:28 IST" name="ForgotPage" finished-at="2025-08-11T09:58:38 IST" duration-ms="10399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ForgotPage -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:ActiveJobsHomePageTestCases.ForgotTest@2f67b837]" started-at="2025-08-11T09:58:38 IST" name="TearDown" finished-at="2025-08-11T09:58:38 IST" duration-ms="180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- ActiveJobsHomePageTestCases.ForgotTest -->
+      <class name="ActiveJobsHomePageTestCases.ViewButtonTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ActiveJobsHomePageTestCases.ViewButtonTest@6af9fcb2]" started-at="2025-08-11T09:58:44 IST" name="setUp" finished-at="2025-08-11T09:58:49 IST" duration-ms="5050" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testViewAndApplyButton()[pri:0, instance:ActiveJobsHomePageTestCases.ViewButtonTest@6af9fcb2]" started-at="2025-08-11T09:58:49 IST" name="testViewAndApplyButton" finished-at="2025-08-11T09:58:52 IST" duration-ms="3221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testViewAndApplyButton -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ActiveJobsHomePageTestCases.ViewButtonTest@6af9fcb2]" started-at="2025-08-11T09:58:52 IST" name="tearDown" finished-at="2025-08-11T09:58:53 IST" duration-ms="291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ActiveJobsHomePageTestCases.ViewButtonTest -->
+      <class name="ActiveJobsHomePageTestCases.SearchTextFieldTest">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:ActiveJobsHomePageTestCases.SearchTextFieldTest@1869fbd2]" started-at="2025-08-11T09:58:38 IST" name="SetUp" finished-at="2025-08-11T09:58:43 IST" duration-ms="4911" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="SearchJob()[pri:0, instance:ActiveJobsHomePageTestCases.SearchTextFieldTest@1869fbd2]" started-at="2025-08-11T09:58:43 IST" name="SearchJob" finished-at="2025-08-11T09:58:44 IST" duration-ms="523" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchJob -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:ActiveJobsHomePageTestCases.SearchTextFieldTest@1869fbd2]" started-at="2025-08-11T09:58:44 IST" name="TearDown" finished-at="2025-08-11T09:58:44 IST" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- ActiveJobsHomePageTestCases.SearchTextFieldTest -->
+      <class name="ActiveJobsHomePageTestCases.ViewSimilarJobViewButtonTest">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:ActiveJobsHomePageTestCases.ViewSimilarJobViewButtonTest@7efaad5a]" started-at="2025-08-11T09:58:58 IST" name="SetUp" finished-at="2025-08-11T09:59:04 IST" duration-ms="5875" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="ViewJobsButton()[pri:0, instance:ActiveJobsHomePageTestCases.ViewSimilarJobViewButtonTest@7efaad5a]" started-at="2025-08-11T09:59:04 IST" name="ViewJobsButton" finished-at="2025-08-11T09:59:09 IST" duration-ms="4848" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ViewJobsButton -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:ActiveJobsHomePageTestCases.ViewSimilarJobViewButtonTest@7efaad5a]" started-at="2025-08-11T09:59:09 IST" name="TearDown" finished-at="2025-08-11T09:59:09 IST" duration-ms="199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- ActiveJobsHomePageTestCases.ViewSimilarJobViewButtonTest -->
+      <class name="ActiveJobsHomePageTestCases.WTwoCheckboxTest">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:ActiveJobsHomePageTestCases.WTwoCheckboxTest@291a7e3c]" started-at="2025-08-11T09:59:09 IST" name="SetUp" finished-at="2025-08-11T09:59:14 IST" duration-ms="4785" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="Checkbox()[pri:1, instance:ActiveJobsHomePageTestCases.WTwoCheckboxTest@291a7e3c]" started-at="2025-08-11T09:59:14 IST" name="Checkbox" finished-at="2025-08-11T09:59:15 IST" duration-ms="843" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Checkbox -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:ActiveJobsHomePageTestCases.WTwoCheckboxTest@291a7e3c]" started-at="2025-08-11T09:59:15 IST" name="TearDown" finished-at="2025-08-11T09:59:15 IST" duration-ms="184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- ActiveJobsHomePageTestCases.WTwoCheckboxTest -->
+      <class name="ActiveJobsHomePageTestCases.ForgotCancelButtonTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ActiveJobsHomePageTestCases.ForgotCancelButtonTest@1fc32e4f]" started-at="2025-08-11T09:58:13 IST" name="setUp" finished-at="2025-08-11T09:58:19 IST" duration-ms="5372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ForgotPage()[pri:0, instance:ActiveJobsHomePageTestCases.ForgotCancelButtonTest@1fc32e4f]" started-at="2025-08-11T09:58:19 IST" name="ForgotPage" finished-at="2025-08-11T09:58:22 IST" duration-ms="3303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ForgotPage -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:ActiveJobsHomePageTestCases.ForgotCancelButtonTest@1fc32e4f]" started-at="2025-08-11T09:58:22 IST" name="TearDown" finished-at="2025-08-11T09:58:22 IST" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- ActiveJobsHomePageTestCases.ForgotCancelButtonTest -->
+      <class name="ActiveJobsHomePageTestCases.ViewSimilarJobsButtonTest">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:ActiveJobsHomePageTestCases.ViewSimilarJobsButtonTest@6cce16f4]" started-at="2025-08-11T09:58:53 IST" name="SetUp" finished-at="2025-08-11T09:58:57 IST" duration-ms="4700" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="ViewSimilarJobButton()[pri:0, instance:ActiveJobsHomePageTestCases.ViewSimilarJobsButtonTest@6cce16f4]" started-at="2025-08-11T09:58:57 IST" name="ViewSimilarJobButton" finished-at="2025-08-11T09:58:58 IST" duration-ms="558" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ViewSimilarJobButton -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:ActiveJobsHomePageTestCases.ViewSimilarJobsButtonTest@6cce16f4]" started-at="2025-08-11T09:58:58 IST" name="TearDown" finished-at="2025-08-11T09:58:58 IST" duration-ms="249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- ActiveJobsHomePageTestCases.ViewSimilarJobsButtonTest -->
+      <class name="ActiveJobsHomePageTestCases.FindButtonTest">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:ActiveJobsHomePageTestCases.FindButtonTest@5f354bcf]" started-at="2025-08-11T09:58:05 IST" name="SetUp" finished-at="2025-08-11T09:58:13 IST" duration-ms="7057" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="FindData()[pri:0, instance:ActiveJobsHomePageTestCases.FindButtonTest@5f354bcf]" started-at="2025-08-11T09:58:13 IST" name="FindData" finished-at="2025-08-11T09:58:13 IST" duration-ms="326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FindData -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:ActiveJobsHomePageTestCases.FindButtonTest@5f354bcf]" started-at="2025-08-11T09:58:13 IST" name="TearDown" finished-at="2025-08-11T09:58:13 IST" duration-ms="177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- ActiveJobsHomePageTestCases.FindButtonTest -->
+    </test> <!-- Test -->
+  </suite> <!-- MasterSuite -->
+</testng-results>

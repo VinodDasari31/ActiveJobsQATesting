@@ -24,7 +24,7 @@ public class EmployerLoginPage
 	@FindBy(xpath="//a[@id='emplogin']")
 	WebElement EmpLayout;
 	
-	@FindBy(css=".form-control text-box single-line")
+	@FindBy(xpath="//input[@id='CompanyEmailId']")
 	WebElement Empmail;
 	
 	@FindBy(xpath="//input[@name='Password']")

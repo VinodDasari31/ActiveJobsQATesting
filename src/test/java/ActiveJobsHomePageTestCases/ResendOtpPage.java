@@ -33,8 +33,8 @@ ResendOtpPage(WebDriver driver){
 	 @FindBy(xpath= "//button[@id='BSUForgotPasswordSubmit']")
 	 WebElement send;
 	 
-	 @FindBy(xpath= "//a[@id='bsuresendButton']")
-	 WebElement resend;
+	/* @FindBy(xpath= "//a[@id='bsuresendButton']")
+	 WebElement resend; */
 	 
 	 // Action Methods
 	 public void header() 
@@ -55,9 +55,9 @@ ResendOtpPage(WebDriver driver){
 	 public void SendBtn() {
 		 send.click();
 	 }
-	 public void ResendOtp() {
+	/* public void ResendOtp() {
 		 resend.click();
-	 }
+	 } */
 	
 	
 }

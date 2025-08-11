@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="5" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="EmployerPageTestCases.EmployerLoginLinkTest">
+        <methods>
+          <include name="TearDown"/>
+          <include name="LoginLink"/>
+          <include name="SetUp"/>
+        </methods>
+      </class> <!-- EmployerPageTestCases.EmployerLoginLinkTest -->
+      <class name="ActiveJobsPOMTestCases.EmployerLoginTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="EmployerLogin"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- ActiveJobsPOMTestCases.EmployerLoginTest -->
+      <class name="ActiveJobsHomePageTestCases.ResendOtpTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="ForgotPage"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- ActiveJobsHomePageTestCases.ResendOtpTest -->
+      <class name="BenchSalesRecruiterPage.ChangePasswordTest">
+        <methods>
+          <include name="TearDown"/>
+          <include name="SetUp"/>
+          <include name="ChangePasswordTestCase"/>
+        </methods>
+      </class> <!-- BenchSalesRecruiterPage.ChangePasswordTest -->
+      <class name="BenchSalesRecruiterPage.BulkDataTest">
+        <methods>
+          <include name="BulkPageTestCase"/>
+          <include name="TearDown"/>
+          <include name="SetUp"/>
+        </methods>
+      </class> <!-- BenchSalesRecruiterPage.BulkDataTest -->
+      <class name="BenchSalesRecruiterPage.BSRLoginHomeTest">
+        <methods>
+          <include name="SetUp"/>
+          <include name="Logout"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- BenchSalesRecruiterPage.BSRLoginHomeTest -->
+      <class name="BenchSalesRecruiterPage.PageTest">
+        <methods>
+          <include name="SetUp"/>
+          <include name="TearDown"/>
+          <include name="Profile"/>
+        </methods>
+      </class> <!-- BenchSalesRecruiterPage.PageTest -->
+      <class name="ActiveJobsPageChangeTests.NextPageQATest">
+        <methods>
+          <include name="TearDown"/>
+          <include name="NextPage"/>
+          <include name="SetUp"/>
+        </methods>
+      </class> <!-- ActiveJobsPageChangeTests.NextPageQATest -->
+      <class name="BenchSalesRecruiterPage.BulkEmailTest">
+        <methods>
+          <include name="SetUp"/>
+          <include name="BulkEmailsTestCases"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- BenchSalesRecruiterPage.BulkEmailTest -->
+      <class name="BenchSalesRecruiterPage.ReportBugTest">
+        <methods>
+          <include name="SetUp"/>
+          <include name="ReportBugsPage"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- BenchSalesRecruiterPage.ReportBugTest -->
+      <class name="ActiveJobsLinkTests.BSRRegistrationLinksTest">
+        <methods>
+          <include name="TearDown"/>
+          <include name="ClickLink"/>
+          <include name="SetUp"/>
+        </methods>
+      </class> <!-- ActiveJobsLinkTests.BSRRegistrationLinksTest -->
+      <class name="BenchSalesRecruiterPage.CancelButtonTest">
+        <methods>
+          <include name="SetUp"/>
+          <include name="TearDown"/>
+          <include name="ChangePasswordTestCase"/>
+        </methods>
+      </class> <!-- BenchSalesRecruiterPage.CancelButtonTest -->
+      <class name="ActiveJobsPOMTestCases.JobseekerLoginTest">
+        <methods>
+          <include name="Jobseeker"/>
+          <include name="setUp"/>
+          <include name="TestClose"/>
+        </methods>
+      </class> <!-- ActiveJobsPOMTestCases.JobseekerLoginTest -->
+      <class name="ActiveJobsPOMTestCases.BSRRegistrationTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="BenchRegistration"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- ActiveJobsPOMTestCases.BSRRegistrationTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

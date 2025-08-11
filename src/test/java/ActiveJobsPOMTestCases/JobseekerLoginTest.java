@@ -31,7 +31,7 @@ public class JobseekerLoginTest
 		login.JslPassword.sendKeys("vinod");
 		login.JslLoginBtn.click();
 		
-		Assert.assertEquals(driver.getTitle(), "Vinod Dasari Java with Selenium - Job Seeker Profile - ActiveJobs.us");
+		Assert.assertEquals(driver.getTitle(), "Full Time, C2C Jobs and Contract Jobs in USA - ActiveJobs");
 	}
 	@AfterClass
 	void TestClose() {

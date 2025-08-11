@@ -12,36 +12,42 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-public class EmployerRegistrationTest 
+import pageObjects.HomeElements;
+import setup.BrowserPage;
+
+public class EmployerRegistrationTest extends BrowserPage
 {
-	WebDriver driver;
 	
-	@BeforeClass
+	
+	/*@BeforeClass
 	public void setUp() 
 	{
 		driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(60));
 		driver.get("https://uatapp.activejobs.us/");
 		driver.manage().window().maximize();
-	}
+	}  */
 	@Test
-	void EmployerRegistration() 
+	public void EmployerRegistration() 
 	{
+		//EmployerRegistrationPage emp = new EmployerRegistrationPage(driver);
+		
+		HomeElements emply = new HomeElements(driver);
+		emply.EmpHeader();
+		emply.EmpLayout();
 		EmployerRegistrationPage emp = new EmployerRegistrationPage(driver);
 		
-		emp.EmpHeader();
-		emp.EmpLayout();
-		 
-	  JavascriptExecutor js = (JavascriptExecutor) driver;
+		JavascriptExecutor js = (JavascriptExecutor) driver;
 	     js.executeScript("document.body.style.zoom='70%'");
 		
-		emp.EmpName("xyzv");
-		emp.EmpMail("000sddfa@gmail.com");
-		emp.EmpPassword("123456");
-		emp.EmpcPassword("123456");
+		emp.EmpName(randomString().toUpperCase());
+		emp.EmpMail(randomString()+"@gmail.com");
+		String password = randomAlphaNumberic();
+		emp.EmpPassword(password);
+		emp.EmpcPassword(password);
 		emp.EmpCompanyName("Pt");
 		emp.EmpCodes("+1 (US)");
-		emp.EmpNumber("9876543212");
+		emp.EmpNumber(mobileNumber());
 		emp.EmpCountry("USA");
 		emp.EmpState("Alaska");
 		emp.EmpCompanyUrl("NA");
@@ -50,10 +56,10 @@ public class EmployerRegistrationTest
 		
 	}
 	
-	@AfterClass
+	/*@AfterClass
 	void TearDown() {
 		
 		driver.quit();
-	}
+	} */
 
 }
